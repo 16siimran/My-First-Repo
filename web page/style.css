@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: linear-gradient(135deg, #4CAF50, #2196F3);
+  color: white;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  
+  
+}
+.hero-text .highlight {
+  color: #ffeb3b;
+}
+.hero-text button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #2196F3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.hero-text button:hover {
+  background: #ffeb3b;
+  color: #000;
+}
+.hero-img img {
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 220px;
+  height: 220px;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 10%;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 15px;
+  color: #2196F3;
+}
+
+/* Contact */
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1976D2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
