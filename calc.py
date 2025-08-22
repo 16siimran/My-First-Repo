@@ -23,3 +23,12 @@ elif choice == '3':
     width = float(input("Enter width of the rectangle: "))
     area = length * width
     print("Area of Rectangle =", area)
+
+elif choice == '4':
+    base = float(input("Enter base of the triangle: "))
+    height = float(input("Enter height of the triangle: "))
+    area = 0.5 * base * height
+    print("Area of Triangle =", area)
+
+else:
+    print("Invalid choice!")
