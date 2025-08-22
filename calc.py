@@ -12,3 +12,8 @@ if choice == '1':
     radius = float(input("Enter radius of the circle: "))
     area = math.pi * radius * radius
     print("Area of Circle =", area)
+
+elif choice == '2':
+    side = float(input("Enter side length of the square: "))
+    area = side * side
+    print("Area of Square =", area)
