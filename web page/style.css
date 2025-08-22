@@ -37,6 +37,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  
 }
 .hero-text button:hover {
   background: #ffeb3b;
