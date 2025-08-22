@@ -17,3 +17,9 @@ elif choice == '2':
     side = float(input("Enter side length of the square: "))
     area = side * side
     print("Area of Square =", area)
+
+elif choice == '3':
+    length = float(input("Enter length of the rectangle: "))
+    width = float(input("Enter width of the rectangle: "))
+    area = length * width
+    print("Area of Rectangle =", area)
